@@ -18,22 +18,22 @@ var distancia=0;
 var fimdeJogo, recomecar;
 
 function preload(){
-  imgCaminho = loadImage("images/Road.png");
-  img1CiclistaPrincipal = loadAnimation("images/mainPlayer1.png","images/mainPlayer2.png");
-  img2CiclistaPrincipal= loadAnimation("images/mainPlayer3.png");
-  imgmoeda = loadImage("images/moedas.png");
+  imgCaminho = loadImage("Road.png");
+  img1CiclistaPrincipal = loadAnimation("mainPlayer1.png","mainPlayer2.png");
+  img2CiclistaPrincipal= loadAnimation("mainPlayer3.png");
+  imgmoeda = loadImage("moedas.png");
   
-  opRosaimg1 = loadAnimation("images/opponent1.png","images/opponent2.png");
-  opRosaimg2 = loadAnimation("images/opponent3.png");
+  opRosaimg1 = loadAnimation("opponent1.png","opponent2.png");
+  opRosaimg2 = loadAnimation("opponent3.png");
   
-  opAmareloimg1 = loadAnimation("images/opponent4.png","images/opponent5.png");
-  opAmareloimg2 = loadAnimation("images/opponent6.png");
+  opAmareloimg1 = loadAnimation("opponent4.png","opponent5.png");
+  opAmareloimg2 = loadAnimation("opponent6.png");
   
-  opVermelhoimg1 = loadAnimation("images/opponent7.png","images/opponent8.png");
-  opVermelhoimg2 = loadAnimation("images/opponent9.png");
+  opVermelhoimg1 = loadAnimation("opponent7.png","opponent8.png");
+  opVermelhoimg2 = loadAnimation("opponent9.png");
   
-  sinoBicicleta = loadSound("sound/bell.mp3");
-  imgFimJogo = loadImage("images/gameOver.png");
+  sinoBicicleta = loadSound("bell.mp3");
+  imgFimJogo = loadImage("gameOver.png");
 }
 
 function setup(){
